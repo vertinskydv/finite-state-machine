@@ -51,7 +51,7 @@ class FSM {
             }
         }
         this.triggerError = true;
-        // throw new Error();
+        throw new Error();
     }
 
     /**
